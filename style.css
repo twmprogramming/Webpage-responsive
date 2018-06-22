@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
+  }
+body{
+    height: 100vh;
+    background: linear-gradient(to left, #83a4d4, #b6fbff);
+}
+header{
+    height:15%;
+    text-align: center;
+    padding: 1%;
+    font-size: 2.2vmin;
+    line-height: 1;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 25px 2px rgba(0, 0, 0, .5);
+}
+.container{
+    height: 85%;
+    padding:1%;    
+    font-size: 1.2em;
+
+}
+.img1{
+    float: right;
+    width: 35%;
+    height: 25%;
+    background: linear-gradient(to left, #666666, #b6fbff); 
+  
+}
+.about{
+    float: left;
+    width:65%;
+    height: 25%;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: steelblue;
+    padding: 1em 4em;
+  }
+  .languages{
+      height: 25%;
+      background: linear-gradient(to left, red, orangered); 
+      clear: both;
+      box-shadow: 3px 3px 25px 2px rgba(0, 0, 0, .5);
+
+  }
+  
